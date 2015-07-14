@@ -1,0 +1,9 @@
+http://quironesportes.azurewebsites.net
+email: devmedia2014@outlook.com
+senha: brasil2014
+
+github - devmedialoja - 
+https://github.com/devmedialoja/quironlojavirtual.git
+https://github.com/RaphaelProgramador/quironlojavirtual.git
+
+visual studio online
