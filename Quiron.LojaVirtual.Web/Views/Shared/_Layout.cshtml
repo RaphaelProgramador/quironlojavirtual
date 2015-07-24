@@ -12,20 +12,21 @@
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <a class="navbar-brand" href="#">Quiron Loja Virtual - Seu esporte é aqui</a>        
+        <a class="navbar-brand" href="#">Quiron Loja Virtual - Seu esporte é aqui</a>
+        @Html.Action("Resumo", "Carrinho")
     </div>
     <hr />
 
     <div class="row panel">
 
         <div id="categoria" class="col-xs-3">
-            @Html.Action("Menu", "Categoria");
+            @Html.Action("Menu", "Categoria")
         </div>
 
         <div id="produtos" class="col-xs-8">
-            @RenderBody()           
+            @RenderBody()
         </div>
 
-    </div>    
+    </div>
 </body>
 </html>
